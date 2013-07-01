@@ -11,7 +11,7 @@ EOF
   s.email = 'assaf@labnotes.org'
   s.homepage = 'http://github.com/assaf/uuid'
 
-  s.files = Dir['{bin,test,lib,docs}/**/*'] + ['README.rdoc', 'MIT-LICENSE', 'Rakefile', 'CHANGELOG', 'uuid.gemspec']
+  s.files = Dir['{bin,test,lib,docs}/**/*'] + ['README.rdoc', 'MIT-LICENSE', 'Rakefile', 'CHANGELOG', 'uuid.gemspec', 'Gemfile', 'Gemfile.lock']
   s.executables = "uuid"
   
   s.rdoc_options << '--main' << 'README.rdoc' << '--title' <<  'UUID generator' << '--line-numbers'
